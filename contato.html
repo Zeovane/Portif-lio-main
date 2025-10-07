@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <title>Portifólio</title>
+  <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,"/>
+
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin href="https://fonts.gstatic.com/" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?display=swap&family=Plus+Jakarta+Sans:wght@400;500;700;800" rel="stylesheet"/>
+
+  <!-- TAILWIND -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+  <!-- STYLE CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <div class="relative flex size-full min-h-screen flex-col group/design-root overflow-x-hidden">
+  <div class="layout-container flex h-full grow flex-col">
+
+  <!-- HEADER -->
+  <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-gray-200 px-10 py-4">
+    <div class="flex items-center gap-3 text-gray-900">
+      <img src="imagens/logo.png" alt="Logo" class="h-8 w-8">
+      <h2 class="text-xl font-bold tracking-tight">Giovanni Gioia</h2>
+    </div>
+    <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+      <a class="text-gray-600 hover:text-gray-900 transition-colors" href="#">Sobre Mim</a>
+      <a class="text-gray-600 hover:text-gray-900 transition-colors" href="#">Projetos</a>
+      <a class="text-gray-600 hover:text-gray-900 transition-colors" href="contato.html">Contato</a>
+    </nav>
+    <div class="flex items-center gap-4">
+      <button class="md:hidden">
+        <span class="material-symbols-outlined"> menu </span>
+      </button>
+      <div class="avatar"></div>
+    </div>
+  </header>
+
+  <!-- FOOTER -->
+    <footer class="border-t border-gray-200 bg-white">
+        <div class="mx-auto max-w-7xl px-6 py-12 lg:px-8">
+            <div class="flex flex-col items-center justify-center gap-6">
+                <div class="flex justify-center space-x-6">
+                    <!-- Você pode colocar ícones sociais aqui também se quiser -->
+                </div>
+                <nav class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm">
+                    <a class="text-gray-600 hover:text-gray-900" href="#">Política de Privacidade</a>
+                    <a class="text-gray-600 hover:text-gray-900" href="#">Termos de Serviço</a>
+                </nav>
+                <p class="mt-4 text-center text-xs leading-5 text-gray-500">© 2024 Sophia Carter. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+    </div>
+</body>
+</html>

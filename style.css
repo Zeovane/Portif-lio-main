@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  --primary-color: #000000;
+  --secondary-color: #f0f0f4;
+}
+
+body {
+ background-color:#f9fafb !important;
+  font-family: "Plus Jakarta Sans", sans-serif;color:aquamarine !important;
+}
+header {
+  background-color: #112427 !important;
+  text-decoration-color: white !important;
+   display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+header h2 {
+  color: white !important;
+  margin: 0;
+  font-size: 1.5rem;
+  flex-grow: 1;
+}
+
+.logo img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%; /* deixa redonda */
+  margin-right: 10px;
+}
+footer {
+  background-color:#1f2937 !important;
+}
+/* Avatar no Header */
+.avatar {
+  background: url(imagens/logo5.png) center/cover no-repeat;
+  border-radius: 9999px;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+/* Botões */
+.btn-primary {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #fff;
+  background-color: var(--primary-color);
+  transition: background 0.3s;
+}
+.btn-primary:hover {
+  background-color: #3a3a3a;/* azul mais escuro */
+}
+
+/* Foto principal */
+.foto-perfil {
+  background: url("../imagens/eu.jpg") center/cover no-repeat;
+  border-radius: 9999px;
+  width: 12rem;
+  height: 12rem;
+  margin: 0 auto;
+}
+
+.btn-secondary {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #1f2937;
+  background: #fff;
+  border: 1px solid #d1d5db;
+  transition: background 0.3s;
+}
+.btn-secondary:hover {
+  background: #b3b3b3;
+}
