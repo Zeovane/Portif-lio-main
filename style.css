@@ -61,7 +61,7 @@ footer {
 
 /* Foto principal */
 .foto-perfil {
-  background: url("../imagens/eu.jpg") center/cover no-repeat;
+  background: url("imagens/eu.jpg") center/cover no-repeat;
   border-radius: 9999px;
   width: 12rem;
   height: 12rem;
