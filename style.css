@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import url('https://cdn.tailwindcss.com');
 
 :root {
   --primary-color: #000000;
@@ -6,13 +6,15 @@
 }
 
 body {
- background-color:#f9fafb !important;
-  font-family: "Plus Jakarta Sans", sans-serif;color:aquamarine !important;
+  background-color: #f9fafb !important;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: aquamarine !important;
 }
+
 header {
   background-color: #112427 !important;
   text-decoration-color: white !important;
-   display: flex;
+  display: flex;
   align-items: center;
   padding: 10px 20px;
 }
@@ -27,11 +29,12 @@ header h2 {
 .logo img {
   width: 70px;
   height: 70px;
-  border-radius: 50%; /* deixa redonda */
+  border-radius: 50%;
   margin-right: 10px;
 }
+
 footer {
-  background-color:#1f2937 !important;
+  background-color: #1f2937 !important;
 }
 /* Avatar no Header */
 .avatar {
@@ -56,7 +59,7 @@ footer {
   transition: background 0.3s;
 }
 .btn-primary:hover {
-  background-color: #3a3a3a;/* azul mais escuro */
+  background-color: #3a3a3a;
 }
 
 /* Foto principal */
